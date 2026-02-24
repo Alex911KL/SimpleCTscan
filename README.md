@@ -2,7 +2,6 @@
 
 This repository contains a Python-based graphical application that simulates the process of 2D image reconstruction used in Computed Tomography (CT) scanners. The tool takes a 2D image as input, generates a sinogram using the Radon transform, applies optional Ram-Lak filtering, and reconstructs the image using the Inverse Radon transform. It also supports reading and writing standard DICOM medical image files.
 
-[Image of Radon Transform and Filtered Backprojection diagram]
 
 ---
 
@@ -64,4 +63,5 @@ $$RMSE = \sqrt{\frac{1}{N} \sum_{j=1}^{N} (I_{orig, j} - I_{recon, j})^2}$$
 ---
 
 ![Example](appCT.png)
+
 
