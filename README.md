@@ -63,4 +63,5 @@ $$RMSE = \sqrt{\frac{1}{N} \sum_{j=1}^{N} (I_{orig, j} - I_{recon, j})^2}$$
 
 ---
 
-![Example](main/appCT.png)
+![Example](appCT.png)
+
