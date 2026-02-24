@@ -60,3 +60,7 @@ $$RMSE = \sqrt{\frac{1}{N} \sum_{j=1}^{N} (I_{orig, j} - I_{recon, j})^2}$$
 | `inverseRadonTransform(...)` | Reconstructs the 2D image. | Iterates through angles and detectors, uses the inverse Bresenham algorithm to map projection paths, and accumulates sinogram intensities into a blank 2D matrix. |
 | `RMSE(img1, img2)` | Calculates reconstruction error. | Utilizes element-wise matrix subtraction and squaring to return a tuple containing both `(MSE, RMSE)`. |
 | `convertToDCM(...)` | Exports to DICOM format. | Leverages `pydicom` to construct a compliant `.dcm` file, generating mandatory UIDs and embedding user-provided metadata (Patient Name, ID, Study Date, Comments). |
+
+---
+
+![Example](main/appCT.png)
